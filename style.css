@@ -86,3 +86,32 @@ nav ul{
     height: 75vh;
 }
 
+.main-bottom{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* main end */
+
+/* footer */
+
+footer{
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+a img{
+    width: 2.5rem;
+}
+
+.footer-bottom{
+display: flex;
+flex-wrap: nowrap;
+}
+
+.footer-bottom p{
+    padding: 1rem;
+}

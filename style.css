@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Merriweather&display=swap');
+
+:root{
+    --primary-color: #a78bfa;
+    --secondary-color: #64748b;
+    --background-color:#fffbeb;
+}
+
+/* ----------FONTS------------- */
+body{
+    height: 100vh;
+    background-color: var(--background-color);
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    display: grid;
+    grid-template: 200px 2fr 1fr/ 1fr 1fr 1fr;
+    gap: 12px;
+}
+ 
+li{
+    list-style: none;
+}
+
+.nav-items-left img{
+    height: 4rem;
+}
+
+nav li a, footer p, footer > div{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.heading-intro{
+    color: var(--secondary-color);
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    flex: 0 1 auto;
+}
+
+.heading-intro span, footer span:hover{
+    color: var(--primary-color);
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+/* -------------FONTS END-------------- */
+
+/* ------------POSITIONING START--------------- */
+
+
+nav, main, footer{
+    grid-column: span 3;
+}
+
+/* navbar */
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-items-left{
+    flex: 1 1 70px;
+}
+
+.nav-items-right{
+    flex: 0 0 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* navbar end */
+
+/* main */
+
+.main-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-top img{
+    width: 100%;
+    height: 75vh;
+}
+
+.main-bottom{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* main end */
+
+/* footer */
+
+footer{
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+a img{
+    width: 2.5rem;
+}
+
+.footer-bottom{
+display: flex;
+flex-wrap: nowrap;
+}
+
+.footer-bottom p{
+    padding: 1rem;
+}
+
+/* blog page */
+
+.main-blog{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.main-blog img{
+    width: 100%;
+    height: 75vh;
+}
+
+
+ol li{
+    list-style: decimal-leading-zero;
+}
+
+ol li a{
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+
+
+.make-btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.make-btn:hover{
+   box-shadow: 0.5px 0.9px var(--secondary-color);
+}

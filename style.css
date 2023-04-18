@@ -43,6 +43,10 @@ nav li a, footer p, footer > div{
     color: var(--primary-color);
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 /* -------------FONTS END-------------- */
 
 /* ------------POSITIONING START--------------- */

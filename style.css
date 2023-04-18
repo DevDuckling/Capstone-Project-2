@@ -115,3 +115,41 @@ flex-wrap: nowrap;
 .footer-bottom p{
     padding: 1rem;
 }
+
+/* blog page */
+
+.main-blog{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.main-blog img{
+    width: 100%;
+    height: 75vh;
+}
+
+
+ol li{
+    list-style: decimal-leading-zero;
+}
+
+ol li a{
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+
+
+.make-btn{
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.make-btn:hover{
+   box-shadow: 0.5px 0.9px var(--secondary-color);
+}
